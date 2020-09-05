@@ -11,11 +11,6 @@ def home_page():
     return render_template('home-page.html')
 
 
-@app.route('/about-me')
-def about_me_page():
-    return render_template('about-me-page.html')
-
-
 @app.route('/contact')
 def contact_page():
     return render_template('contact-page.html')

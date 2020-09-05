@@ -1,3 +1,17 @@
-h1 {
-	color: dodgerblue;
+#profile-pic {
+	border-radius: 200px;
+	margin-top: 10px;
+}
+
+#nav-ending {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+#home-button {
+	border-radius: 60%;
+	width: 15%;
+	height: 15%;
+	margin-top: 5px;
+	margin-bottom: -80px;
 }
