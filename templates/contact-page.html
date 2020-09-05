@@ -2,5 +2,18 @@
 {% block title %}Contact{% endblock %}
 
 {% block content %}
-Contact Me
+<form id="contact-form" class="container">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" placeholder="Your Name" name="name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="text" class="form-control" placeholder="Email Address" name="email">
+    </div>
+    <div class="form-group">
+        <label for="comment">Messege:</label>
+        <input type="text" class="form-control" placeholder="Do you have a messege for Justin?" name="comment">
+      </div>
+  </form>
 {% endblock %}
