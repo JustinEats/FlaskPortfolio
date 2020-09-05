@@ -21,5 +21,5 @@ def contact():
     session['name'] = request.form['name']
     session['email'] = request.form['email']
     session['comment'] = request.form['comment']
-    flash('Thank you! Justin will get back to you as soon as possible!')
+    flash('Messege sent! Thank you! Justin will get back to you as soon as possible!')
     return redirect('contact-page.html')
